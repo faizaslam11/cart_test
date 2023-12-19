@@ -1,0 +1,139 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+body {
+    font-family: sans-serif;
+}
+
+.product-box {
+    margin: auto;
+    border: 2px solid #ccc;
+    /* Border style for the product boxes */
+    margin-bottom: 19px;
+    /* Margin between the product boxes */
+    box-sizing: border-box;
+    width: 50%;
+    /* Include border in box size */
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+
+
+}
+
+.product-info {
+    padding: 3vh 1vw;
+}
+
+.product-boxes {
+    max-height: 80vh;
+}
+
+.product-box:hover {
+    border: 3px solid #2f7245;
+    background-color: #f5fef8;
+}
+
+.top_head {
+    text-align: center;
+    color: green;
+    font-weight: 700;
+    font-family: cursive;
+
+    hr {
+        width: 100px;
+        display: inline-block;
+        border: 1px solid green;
+        height: 0;
+    }
+}
+
+.product-box.expanded {
+    min-height: 150px;
+    background-color: #f5fef8;
+    /* Adjust the expanded height as needed */
+}
+
+.product-options {
+    display: none;
+}
+
+.product-box.expanded .product-options {
+    display: block;
+}
+
+.product-box.expanded select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.cart{
+    button {
+        margin: auto;
+        background-color: #2f7245;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        padding: 15px;
+        min-height: 30px;
+        display: block;
+        width: 26%;
+        font-family: sans-serif;
+        font-size: large;
+        transition: width 0.2s, margin-left 0.2s;
+    }
+
+}
+.powered-by{
+    text-align: center;
+    margin-left: 269px;
+    margin-top: 8px;
+    font-style: italic;
+    color: #aaa;
+    font-size: 13px;
+}
+
+button:hover {
+    margin: auto;
+    border: 1px solid darkgreen;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+table {
+    /* padding: 2vh; */
+    margin: auto;
+
+    td {
+        width: 60px;
+
+        select {
+            width: 57px;
+            line-height: 1rem;
+            height: 1rem;
+        }
+    }
+}
+.ab{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.bottom{
+    display: inline-block;
+    width: 49%;
+}
